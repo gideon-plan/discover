@@ -1,7 +1,7 @@
 ## tdiscover.nim -- Tests for mDNS/DNS-SD service discovery.
 {.experimental: "strict_funcs".}
 import std/[unittest, strutils]
-import discover
+import beacon
 
 suite "mdns":
   test "encode/decode DNS name":
